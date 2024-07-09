@@ -1,0 +1,1 @@
+export const api = (tipo) => `https://api.api-ninjas.com/v1/cars?limit=16&model=${tipo}`;

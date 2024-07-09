@@ -1,0 +1,31 @@
+.content {
+  background-image: url(https://i.pinimg.com/originals/6c/99/3d/6c993d7340744613096bb7f2cceed55a.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 40%;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  margin-top: 5rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 5rem;
+  z-index: 3;
+
+}
